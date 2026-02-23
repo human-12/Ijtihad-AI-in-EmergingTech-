@@ -12,7 +12,7 @@ import type {
     PrecedentUpdate, ScenarioProfile, PrecedentMatch, ConflictReport, TrendSummary
 } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyAFzs2yBpddJQ-DjYDTS-NYi73abtY_EZ8' });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 function cleanJson(text: string | undefined | null): string {
     if (typeof text !== 'string') return "{}";
