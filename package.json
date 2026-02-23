@@ -1,23 +1,24 @@
 {
   "name": "ijtihad-ai:-mujtahid-workbench",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://human-12.github.io/Ijtihad-AI-in-EmergingTech-/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "react": "^19.1.1",
     "@google/genai": "^1.16.0",
+    "gh-pages": "^6.3.0",
+    "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.19.11",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"

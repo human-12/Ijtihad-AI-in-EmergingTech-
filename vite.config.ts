@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
+      base: './Ijtihad-AI-in-EmergingTech-',
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
@@ -21,3 +22,4 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+//https://github.com/human-12/Ijtihad-AI-in-EmergingTech-.git
