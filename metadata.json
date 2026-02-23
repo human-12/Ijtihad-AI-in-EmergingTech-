@@ -1,0 +1,8 @@
+{
+  "name": "Ijtihad AI: Deep Research Swarm",
+  "description": "Advanced Multi-Agent Jurisprudential Intelligence System for Computational Fiqh Research",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
